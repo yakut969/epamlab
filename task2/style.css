@@ -1,8 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
 html{
   background-color: #e3f1f9;
+  height: 100%;
 }
-footer{
+.footer-block{
   background-color: #364654;
+  flex: 0 0 auto;
 }
 .header-background{
   background-color: #111a29;
@@ -91,6 +100,8 @@ a{
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 50px;
+  text-align: left;
+  flex: 1 0 auto;
 }
 .column-fields-block{
   background-color: white;
@@ -106,10 +117,17 @@ a{
 .column-block{
   display: inline-block;
 }
+.wrapper-block {
+  display: flex;
+  flex-direction: column;
+}
+.content-block {
+  flex: 1 0 auto;
+}
 form[name="main-form"] div{
   clear: both;
   text-align: right;
-  margin: 19px;
+  margin: 23px;
 }
 label{
   font-family: arial, sans-serif;
@@ -128,7 +146,7 @@ input[type="button"]{
   border-radius: 7%;
   margin: 40px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 17px;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
