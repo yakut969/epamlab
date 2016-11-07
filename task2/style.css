@@ -1,0 +1,140 @@
+html{
+  background-color: #e3f1f9;
+}
+footer{
+  background-color: #364654;
+}
+.header-background{
+  background-color: #111a29;
+  width: 100%;
+}
+.header-block{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+img{
+  float: right;
+  height: 235px;
+}
+.p-title{
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 44px;
+  margin-top: 0px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+.p-addres{
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p-date{
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.p-step{
+  color: #364654;
+  font-family: sans-serif, serif;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-indent: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.p-footer{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: arial,sans-serif;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+a{
+  float: right;
+  color: white;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.step-block{
+  background-color: #bfd4de;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.tip-block{
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-indent: 40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-style: italic;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+}
+.button-block{
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+.column-fields-block{
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+.form-block{
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.column-block{
+  display: inline-block;
+}
+form[name="main-form"] div{
+  clear: both;
+  text-align: right;
+  margin: 19px;
+}
+label{
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+input[type="text"]{
+  height: 30px;
+  width: 450px;
+}
+input[type="button"]{
+  font-size: 14px;
+  background-color: #364654;
+  color: white;
+  border-radius: 7%;
+  margin: 40px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+}
+select{
+  width: 454px;
+  height: 36px;
+}
